@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="bower_components/angular/angular.js" data-semver="1.4.9"></script>
+    <script src="app.js"></script>
+  </head>
+  
+  <body ng-controller="MainCtrl">
+    <p>Hello {{name}}!</p>
+    
+    <div>
+      <button ng-click="addText1()" style="position: fixed; top: 10px; right: 10px;">Add more text</button>
+      <div style="height: 100px;">      
+      </div>
+      <div style="width: 500px;" ng-bind="texts.text1">      
+      </div>
+      <div dell-affix data-offset-top="50" data-offset-bottom="50" style="height: 150px; background: red; width: 100%;">
+          Affixed content
+      </div>
+      <div style="width: 300px;">
+        Tupacsum Ipsum And dreams of a world with the two of them are together, whatever. As long as when the check came they got first dibs. There was no mercy on the streets, I couldn't rest. Now ain't nobody tell us it was fair. it ain't no hope for tha future.
+Suspended from school; and scared to go home, I was a fool. No money no babysitter, she couldn't keep a job. I wonder why we take from our women.
+And dreams of a world with the two of them are together, whatever. Brenda got herself a boyfriend. But, Brenda's barely got a brain. Cause I bet Brenda doesn't even know. I blame my mother, for turning my brother into a crack baby.
+And even though you're fed up. Suspended from school; and scared to go home, I was a fool. Call on the sirens, seen him murdered in the streets. From havin the world on his shoulders.
+I was given this world I didn't make it. I reminice on the stress I caused, it was hell. As long as when the check came they got first dibs. Left me alone I grew up amongst a dyin breed.
+We ain't meant to survive, cause it's a setup. Wonder why as I walk by. And dreams of a world with the two of them are together, whatever. I'm trapped inside a maze.
+Tupacsum Ipsum And dreams of a world with the two of them are together, whatever. As long as when the check came they got first dibs. There was no mercy on the streets, I couldn't rest. Now ain't nobody tell us it was fair. it ain't no hope for tha future.
+Suspended from school; and scared to go home, I was a fool. No money no babysitter, she couldn't keep a job. I wonder why we take from our women.
+And dreams of a world with the two of them are together, whatever. Brenda got herself a boyfriend. But, Brenda's barely got a brain. Cause I bet Brenda doesn't even know. I blame my mother, for turning my brother into a crack baby.
+And even though you're fed up. Suspended from school; and scared to go home, I was a fool. Call on the sirens, seen him murdered in the streets. From havin the world on his shoulders.
+I was given this world I didn't make it. I reminice on the stress I caused, it was hell. As long as when the check came they got first dibs. Left me alone I grew up amongst a dyin breed.
+      </div>
+    </div>
+    
+  </body>
+
+</html>

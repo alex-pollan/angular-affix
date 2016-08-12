@@ -1,0 +1,21 @@
+{
+  "name": "angular-affix",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Alex Pollan Migueles <alex_pollan@dell.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2"
+  }
+}
